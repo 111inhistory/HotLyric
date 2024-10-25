@@ -361,7 +361,7 @@ namespace HotLyric.Win32.Utils.MediaSessions.SMTC
             {
                 public string? name { get; set; }
 
-                public int id { get; set; }
+                public long id { get; set; }
 
                 public double? dt { get; set; }
 
